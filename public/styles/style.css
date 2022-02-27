@@ -1,0 +1,45 @@
+main {
+  height: 100vh;
+  width: auto;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  row-gap: 3rem;
+  text-align: center;
+  font-family: 'Source Code Pro', monospace;
+}
+
+main h1 {
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+h1 .comment {
+  font-weight: 200;
+  color: gray;
+  font-size: 2.25rem;
+}
+
+img {
+  width:275px;
+  height:200px;
+}
+
+@media screen and (max-width: 800px) {
+  main h1 {
+    font-size: 2rem;
+  }
+
+  h1 .comment {
+    font-size: 1.5rem;
+  }
+
+  img {
+    transform: scale(0.8);
+  }
+}
+
+/* backInDown, pulse fade in left */
